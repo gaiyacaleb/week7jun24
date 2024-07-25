@@ -1,10 +1,10 @@
 document.body.style.background = "pink"
 
-const foodie = document.getElementById('fine boy')
+const foodie = document.getElementById('cute')
 
 const glutton = document.querySelector('ol li:nth-of-type(1)')
 
-const aries = document.querySelector('ol li:nth-of-type(9)')
+const aries = document.querySelector('ol li:nth-of-type(8) +li')
 
 const cancer = document.querySelectorAll('ol li')
 
